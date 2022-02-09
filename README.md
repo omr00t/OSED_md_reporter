@@ -32,7 +32,7 @@ sudo apt-get install pandoc texlive-fonts-extra texlive-latex-extra texlive-late
 ## Downloading `eisvogel`
 
 ```
-sudo wget https://raw.githubusercontent.com/Wandmalfarbe/pandoc-latex-template/master/eisvogel.tex -O /usr/share/pandoc/data/templates/eisvogel.latex`
+sudo wget https://raw.githubusercontent.com/Wandmalfarbe/pandoc-latex-template/master/eisvogel.tex -O /usr/share/pandoc/data/templates/eisvogel.latex
 ```
 
 ## How to use
