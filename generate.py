@@ -32,7 +32,7 @@ resource_path = "".join(md_path.split('/')[:-1])
 check_output(f"pandoc {md_path} -o {pdf} \
   --resource-path {resource_path} \
   --from markdown+yaml_metadata_block+raw_html \
-  --template eisvogel \
+  --template templates/eisvogel \
   --table-of-contents \
   --toc-depth 6 \
   --number-sections \
